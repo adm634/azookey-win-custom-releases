@@ -1,0 +1,98 @@
+{
+  "run": "https://github.com/adm634/azookey-win-custom/actions/runs/36133189773",
+  "head": "a4d8886884040fb8cbf2790cc336031a655cc8db",
+  "conclusion": "success",
+  "tests": {
+    "Test encrypted dictionary packs, index limits, and updates": {
+      "passed": 18,
+      "failed": 0,
+      "ignored": 1
+    },
+    "Test settings, API response handling, and Windows credential encryption": {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    "Test release version and update selection": {
+      "passed": 2,
+      "failed": 0,
+      "ignored": 0
+    },
+    "Test dictionary catalog and download validation": {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    "Test IME candidate deletion and COM panic containment": {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    "Reject incompatible or incomplete dictionaries": {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    "Install and verify conversion, learning, dictionary packs, and restart": {
+      "passed": 1,
+      "failed": 0,
+      "ignored": 0
+    }
+  },
+  "total_passed": 35,
+  "ignored_note": "worker_process is a subprocess entry point deliberately ignored by the parent harness and explicitly invoked with --ignored by concurrency tests.",
+  "packs": [
+    {
+      "entries": 449086,
+      "id": "jp-address",
+      "index_bytes": 4249121,
+      "sha256": "071e494c966ff0c8eb989c885b0037721af59ba50c9d74545f1ab28d13653f1c",
+      "verified_seconds": 1.0285511
+    },
+    {
+      "entries": 577816,
+      "id": "jp-place",
+      "index_bytes": 6606467,
+      "sha256": "f8948907f5576dcc681d07dfe1e65e1970e180326e6b74ed94804fd833220dbc",
+      "verified_seconds": 1.4342783
+    },
+    {
+      "entries": 466099,
+      "id": "jp-person",
+      "index_bytes": 3153195,
+      "sha256": "4cd640b8400b5d0c103a8a0df477b27de2a30459eecaa6936fda139804274cfb",
+      "verified_seconds": 0.8007536
+    },
+    {
+      "entries": 301034,
+      "id": "jp-proper",
+      "index_bytes": 6563350,
+      "sha256": "f5531e529140b1d9fedd8fc8c810af04128c2904330696649001e0dea17c3fff",
+      "verified_seconds": 0.7267076
+    },
+    {
+      "entries": 80443,
+      "id": "jp-terms",
+      "index_bytes": 1168310,
+      "sha256": "6b1475c9afd4b5990e263b847fd14c3b3a1d85788f1ce88647c90945171de979",
+      "verified_seconds": 0.1727268
+    },
+    {
+      "entries": 4292594,
+      "id": "jp-company",
+      "index_bytes": 31067477,
+      "sha256": "bcf7615e88b04c749ad735797cb9c5161703c60229a4f6dfa0e03e6a8c8f267e",
+      "verified_seconds": 7.5844043
+    }
+  ],
+  "verified_pack_entries": 6167072,
+  "integration_cases": [
+    "pack install/update/disable/enable/remove/restart",
+    "four postal input forms and full address",
+    "prediction and personal dictionary coexistence",
+    "Zenzai small and xsmall CPU baseline and supplemental address",
+    "48 homophones reachable, last selected then promoted after restart",
+    "all six actual distribution packs loaded, eight conversion fixtures passed"
+  ],
+  "integration_seconds": 44.03
+}
