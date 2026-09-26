@@ -1,0 +1,864 @@
+{
+  "runtime": "Mac release converter, Zenzai OFF, prediction OFF, learning OFF",
+  "calls": 174,
+  "score_postprocessing": false,
+  "packs": [
+    {
+      "file": "jp-address-2026.09.25.azdict",
+      "bytes": 8644397,
+      "sha256": "071e494c966ff0c8eb989c885b0037721af59ba50c9d74545f1ab28d13653f1c"
+    },
+    {
+      "file": "jp-company-2026.09.25.azdict",
+      "bytes": 67677412,
+      "sha256": "bcf7615e88b04c749ad735797cb9c5161703c60229a4f6dfa0e03e6a8c8f267e"
+    },
+    {
+      "file": "jp-dmime-medical-2026.09.26.azdict",
+      "bytes": 1422689,
+      "sha256": "6b121b5971c533895be62e041bf99ec11473ac53d3afd792fb087139dc82f884"
+    },
+    {
+      "file": "jp-jmdict-general-2026.09.26.azdict",
+      "bytes": 1699794,
+      "sha256": "950974c7e4875472bb039ca1d8f7920983ce1186cd62070ef95dc698a331e221"
+    },
+    {
+      "file": "jp-jmdict-medical-2026.09.26.azdict",
+      "bytes": 116527,
+      "sha256": "c9cb72095d852e1fadbc48e9ea7f6405c9514767466a2ece22cc7f8f7beef9af"
+    },
+    {
+      "file": "jp-jmdict-science-2026.09.26.azdict",
+      "bytes": 437961,
+      "sha256": "c0a2f0c3941bce741e1a5d9732860f6589f9a50ddbd6034a3b4a06192db86b7c"
+    },
+    {
+      "file": "jp-jmnedict-names-2026.09.26.azdict",
+      "bytes": 3102199,
+      "sha256": "143a51f9a33fb1218002b3e2003685672bc214490970309a757ce5fb37dedf0a"
+    },
+    {
+      "file": "jp-jmnedict-place-2026.09.26.azdict",
+      "bytes": 3837103,
+      "sha256": "d77ceb69e686093ab38cfb4acf445347d93e014aaf1f0c19d7e3c755cd99f0a9"
+    },
+    {
+      "file": "jp-jmnedict-proper-2026.09.26.azdict",
+      "bytes": 211185,
+      "sha256": "616c0f260234fa6ac6986beaea6c4726992ed8fd271c74d0c2127bbf84bda825"
+    },
+    {
+      "file": "jp-neologd-2026.09.26.azdict",
+      "bytes": 56982688,
+      "sha256": "c21019abe28ae3fdbaeb4306b00e9edaa10bfecff32bf0e990dc333b2837ca6b"
+    },
+    {
+      "file": "jp-person-2026.09.25.azdict",
+      "bytes": 7030478,
+      "sha256": "4cd640b8400b5d0c103a8a0df477b27de2a30459eecaa6936fda139804274cfb"
+    },
+    {
+      "file": "jp-place-2026.09.25.azdict",
+      "bytes": 12496534,
+      "sha256": "f8948907f5576dcc681d07dfe1e65e1970e180326e6b74ed94804fd833220dbc"
+    },
+    {
+      "file": "jp-proper-2026.09.25.azdict",
+      "bytes": 9067438,
+      "sha256": "f5531e529140b1d9fedd8fc8c810af04128c2904330696649001e0dea17c3fff"
+    },
+    {
+      "file": "jp-skk-general-2026.09.26.azdict",
+      "bytes": 1944025,
+      "sha256": "c98442e6947970454b783ee9f68eec79bbadd0b38112c3c9ab9734b7f90eafd8"
+    },
+    {
+      "file": "jp-skk-law-2026.09.26.azdict",
+      "bytes": 325778,
+      "sha256": "19f5dacafc3579ddf62da18ae67ef9f83215d2d2137ccb9d84263d146b57bb1f"
+    },
+    {
+      "file": "jp-skk-names-2026.09.26.azdict",
+      "bytes": 791481,
+      "sha256": "e32e7ac42c5257a448456cb79e7c635891ad17d48ad2ae286413e9ee73279059"
+    },
+    {
+      "file": "jp-skk-place-2026.09.26.azdict",
+      "bytes": 2198003,
+      "sha256": "fd353d14360266778c7511371a31bfb0216f978a8d9032269df136e240a1cc5c"
+    },
+    {
+      "file": "jp-terms-2026.09.25.azdict",
+      "bytes": 1953548,
+      "sha256": "6b1475c9afd4b5990e263b847fd14c3b3a1d85788f1ce88647c90945171de979"
+    },
+    {
+      "file": "jp-ut-names-2026.09.26.azdict",
+      "bytes": 863569,
+      "sha256": "6c8ab9f1e3454df4095feae5d5400ebdcc5722a0f4f704ff66e9a3ef4d4ecb7f"
+    }
+  ],
+  "modes": {
+    "bundled": {
+      "ordinary": 40,
+      "unchanged_first": 40,
+      "entities": [
+        {
+          "candidates": [
+            "豊饒",
+            "無尿",
+            "不尿",
+            "無繞",
+            "不繞",
+            "無饒",
+            "不饒",
+            "無女布",
+            "無祢布",
+            "不女布"
+          ],
+          "category": "entity",
+          "elapsed_ms": 0.6200075149536133,
+          "expected": "豊饒",
+          "expected_rank": 1,
+          "imported_rows": 4,
+          "index": 40,
+          "mode": "bundled",
+          "reading": "ぶにょう"
+        },
+        {
+          "candidates": [
+            "大分県大分市豊饒",
+            "大板県大分市豊饒",
+            "大分権大分市豊饒",
+            "大分券大分市豊饒",
+            "おおいた県大分市豊饒",
+            "オオイタケンオオイタシブニョウ",
+            "おおいたけんおおいたしぶにょう"
+          ],
+          "category": "entity",
+          "elapsed_ms": 4.03904914855957,
+          "expected": "大分県大分市豊饒",
+          "expected_rank": 1,
+          "imported_rows": 22,
+          "index": 41,
+          "mode": "bundled",
+          "reading": "おおいたけんおおいたしぶにょう"
+        },
+        {
+          "candidates": [
+            "トヨタ自動車",
+            "豊田自動車",
+            "TOYOTA自動車",
+            "豊田じどうしゃ",
+            "トヨタじどうしゃ",
+            "トヨタジドウシャ",
+            "とよたじどうしゃ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.6889572143554688,
+          "expected": "トヨタ自動車株式会社",
+          "expected_rank": null,
+          "imported_rows": 8,
+          "index": 42,
+          "mode": "bundled",
+          "reading": "とよたじどうしゃ"
+        },
+        {
+          "candidates": [
+            "NTTドコモ",
+            "エヌティティどこも",
+            "エヌティティ何処も",
+            "エヌティティdocomo",
+            "エヌティティドコモ",
+            "えぬてぃてぃどこも"
+          ],
+          "category": "entity",
+          "elapsed_ms": 3.332972526550293,
+          "expected": "株式会社ＮＴＴドコモ",
+          "expected_rank": null,
+          "imported_rows": 4,
+          "index": 43,
+          "mode": "bundled",
+          "reading": "えぬてぃてぃどこも"
+        },
+        {
+          "candidates": [
+            "的確請求書",
+            "適格請求書",
+            "適格性急所",
+            "適格性級書",
+            "適格性級所",
+            "適格性級署",
+            "適格性球所",
+            "適格性給所",
+            "テキカクセイキュウショ",
+            "てきかくせいきゅうしょ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 11.162042617797852,
+          "expected": "適格請求書",
+          "expected_rank": 2,
+          "imported_rows": 9,
+          "index": 44,
+          "mode": "bundled",
+          "reading": "てきかくせいきゅうしょ"
+        },
+        {
+          "candidates": [
+            "OpenAI",
+            "オープンAI",
+            "OPENAI",
+            "openAI",
+            "オープンai",
+            "オープン絵ー合い",
+            "オープン画ー合い",
+            "オープン絵ーあい",
+            "オープン画ーあい",
+            "オープンエーアイ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.6580820083618164,
+          "expected": "OpenAI",
+          "expected_rank": 1,
+          "imported_rows": 2,
+          "index": 45,
+          "mode": "bundled",
+          "reading": "おーぷんえーあい"
+        },
+        {
+          "candidates": [
+            "Google",
+            "google",
+            "グーグル",
+            "ぐーぐる",
+            "GOOGLE",
+            "goo.gl",
+            "グー具る",
+            "goo具る",
+            "グー具流"
+          ],
+          "category": "entity",
+          "elapsed_ms": 0.3190040588378906,
+          "expected": "Google",
+          "expected_rank": 1,
+          "imported_rows": 0,
+          "index": 46,
+          "mode": "bundled",
+          "reading": "ぐーぐる"
+        },
+        {
+          "candidates": [
+            "山田太郎",
+            "山田太朗",
+            "山田たろう",
+            "やまだたろう",
+            "山田多郎",
+            "ヤマダたろう",
+            "yamadaたろう",
+            "山田たろ雨",
+            "山だたろう",
+            "やまだたろ雨"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.255035400390625,
+          "expected": "山田太郎",
+          "expected_rank": 1,
+          "imported_rows": 6,
+          "index": 47,
+          "mode": "bundled",
+          "reading": "やまだたろう"
+        },
+        {
+          "candidates": [
+            "大分県大分市豊饒に住んでいます",
+            "大分県大分市豊饒に済んでいます",
+            "大分県大分市豊饒にすんでいます",
+            "大分県大分市豊饒に住んで今須",
+            "大分県大分市豊饒に澄んでいます",
+            "オオイタケンオオイタシブニョウニスンデイマス",
+            "おおいたけんおおいたしぶにょうにすんでいます"
+          ],
+          "category": "entity",
+          "elapsed_ms": 5.944967269897461,
+          "expected": "大分県大分市豊饒に住んでいます",
+          "expected_rank": 1,
+          "imported_rows": 25,
+          "index": 48,
+          "mode": "bundled",
+          "reading": "おおいたけんおおいたしぶにょうにすんでいます"
+        },
+        {
+          "candidates": [
+            "斎藤",
+            "斉藤",
+            "齋藤",
+            "齊藤",
+            "斎藤元彦",
+            "西塔",
+            "西東",
+            "西等",
+            "再党",
+            "再東"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.1179914474487305,
+          "expected": "斎藤",
+          "expected_rank": 1,
+          "imported_rows": 15,
+          "index": 49,
+          "mode": "bundled",
+          "reading": "さいとう"
+        },
+        {
+          "candidates": [
+            "雑餉隈",
+            "雑書の熊",
+            "雑書のクマ",
+            "雑書のくま",
+            "雑書の隈",
+            "ザッショノクマ",
+            "ざっしょのくま"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.0329484939575195,
+          "expected": "雑餉隈",
+          "expected_rank": 1,
+          "imported_rows": 4,
+          "index": 50,
+          "mode": "bundled",
+          "reading": "ざっしょのくま"
+        },
+        {
+          "candidates": [
+            "福岡県福岡市雑餉隈",
+            "福岡県福岡市雑書の熊",
+            "福岡県福岡市雑書のクマ",
+            "福岡県福岡市雑書のくま",
+            "福岡県福岡市雑書の隈",
+            "フクオカケンフクオカシザッショノクマ",
+            "ふくおかけんふくおかしざっしょのくま"
+          ],
+          "category": "entity",
+          "elapsed_ms": 4.837989807128906,
+          "expected": "福岡県福岡市雑餉隈",
+          "expected_rank": 1,
+          "imported_rows": 21,
+          "index": 51,
+          "mode": "bundled",
+          "reading": "ふくおかけんふくおかしざっしょのくま"
+        },
+        {
+          "candidates": [
+            "雑餉隈駅",
+            "雑餉隈液",
+            "雑餉隈役",
+            "雑餉隈益",
+            "雑餉隈絵機",
+            "雑餉隈絵期",
+            "雑餉隈画機",
+            "雑餉隈絵器",
+            "雑餉隈画期",
+            "雑餉隈絵記"
+          ],
+          "category": "entity",
+          "elapsed_ms": 8.015990257263184,
+          "expected": "雑餉隈駅",
+          "expected_rank": 1,
+          "imported_rows": 7,
+          "index": 52,
+          "mode": "bundled",
+          "reading": "ざっしょのくまえき"
+        },
+        {
+          "candidates": [
+            "心筋梗塞",
+            "心筋拘束",
+            "信金拘束",
+            "しんきん拘束",
+            "信金高速",
+            "新近郊則",
+            "新近郊速",
+            "新均衡則",
+            "新均衡速",
+            "親近郊則"
+          ],
+          "category": "entity",
+          "elapsed_ms": 8.63790512084961,
+          "expected": "心筋梗塞",
+          "expected_rank": 1,
+          "imported_rows": 11,
+          "index": 53,
+          "mode": "bundled",
+          "reading": "しんきんこうそく"
+        },
+        {
+          "candidates": [
+            "量子もつれ",
+            "漁師も連れ",
+            "猟師も連れ",
+            "漁師もつれ",
+            "量子も連れ",
+            "両霜連れ",
+            "両シモ連れ",
+            "両下津れ",
+            "リョウシモツレ",
+            "りょうしもつれ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.338958740234375,
+          "expected": "量子縺れ",
+          "expected_rank": null,
+          "imported_rows": 6,
+          "index": 54,
+          "mode": "bundled",
+          "reading": "りょうしもつれ"
+        },
+        {
+          "candidates": [
+            "インフォームド・コンセント",
+            "印フォーム度コンセント",
+            "インフォーム度コンセント",
+            "陰フォーム度コンセント",
+            "引フォーム度コンセント",
+            "インフォームドコンセント",
+            "いんふぉーむどこんせんと"
+          ],
+          "category": "entity",
+          "elapsed_ms": 4.053950309753418,
+          "expected": "インフォームドコンセント",
+          "expected_rank": 6,
+          "imported_rows": 0,
+          "index": 55,
+          "mode": "bundled",
+          "reading": "いんふぉーむどこんせんと"
+        },
+        {
+          "candidates": [
+            "ニューラルネットワーク",
+            "ニューらるネットワーク",
+            "ニューらルネットワーク",
+            "にゅーラルネットワーク",
+            ".newラルネットワーク",
+            "にゅーらるねっとわーく"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.2460947036743164,
+          "expected": "Neural Network",
+          "expected_rank": null,
+          "imported_rows": 0,
+          "index": 56,
+          "mode": "bundled",
+          "reading": "にゅーらるねっとわーく"
+        },
+        {
+          "candidates": [
+            "如月",
+            "きさらぎ",
+            "キサラ着",
+            "木在着",
+            "木皿着",
+            "キサラ樹",
+            "木在樹",
+            "貴皿木",
+            "貴蛇穴",
+            "木皿樹"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.0710229873657227,
+          "expected": "衣更着",
+          "expected_rank": null,
+          "imported_rows": 5,
+          "index": 57,
+          "mode": "bundled",
+          "reading": "きさらぎ"
+        }
+      ]
+    },
+    "all": {
+      "ordinary": 40,
+      "unchanged_first": 40,
+      "entities": [
+        {
+          "candidates": [
+            "豊饒",
+            "無尿",
+            "不尿",
+            "無繞",
+            "不繞",
+            "無饒",
+            "不饒",
+            "無女布",
+            "無祢布",
+            "不女布"
+          ],
+          "category": "entity",
+          "elapsed_ms": 0.702977180480957,
+          "expected": "豊饒",
+          "expected_rank": 1,
+          "imported_rows": 9,
+          "index": 40,
+          "mode": "all",
+          "reading": "ぶにょう"
+        },
+        {
+          "candidates": [
+            "大分県大分市豊饒",
+            "大分県信用組合大分市豊饒",
+            "大分県土地開発公社大分市豊饒",
+            "大分県漁業協同組合大分市豊饒",
+            "大分県行政書士会大分市豊饒",
+            "オオイタケンオオイタシブニョウ",
+            "おおいたけんおおいたしぶにょう"
+          ],
+          "category": "entity",
+          "elapsed_ms": 5.975008010864258,
+          "expected": "大分県大分市豊饒",
+          "expected_rank": 1,
+          "imported_rows": 247,
+          "index": 41,
+          "mode": "all",
+          "reading": "おおいたけんおおいたしぶにょう"
+        },
+        {
+          "candidates": [
+            "トヨタ自動車",
+            "TOYOTA MOTOR",
+            "TOYOTA MOTOR CORPORATION",
+            "toyota motor",
+            "toyota motor corporation",
+            "トヨタジドウシャ",
+            "トヨタ自動車労働組合",
+            "トヨタ自動車株式会社",
+            "とよたじどうしゃ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.8259754180908203,
+          "expected": "トヨタ自動車株式会社",
+          "expected_rank": 8,
+          "imported_rows": 159,
+          "index": 42,
+          "mode": "all",
+          "reading": "とよたじどうしゃ"
+        },
+        {
+          "candidates": [
+            "NTTドコモ",
+            "NTT DOCOMO",
+            "NTT DOCOMO INC.",
+            "NTT DOCOMO， INC.",
+            "NTT DoCoMo",
+            "NTTdocomo",
+            "ntt docomo",
+            "ntt docomo inc.",
+            "ntt docomo， inc.",
+            "nttdocomo"
+          ],
+          "category": "entity",
+          "elapsed_ms": 3.702998161315918,
+          "expected": "株式会社ＮＴＴドコモ",
+          "expected_rank": 14,
+          "imported_rows": 144,
+          "index": 43,
+          "mode": "all",
+          "reading": "えぬてぃてぃどこも"
+        },
+        {
+          "candidates": [
+            "適格請求書",
+            "適格性久所",
+            "的確請求書",
+            "適格性究所",
+            "適格性急所",
+            "適格性級書",
+            "適格性級所",
+            "適格性級署",
+            "テキカクセイキュウショ",
+            "てきかくせいきゅうしょ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 16.054987907409668,
+          "expected": "適格請求書",
+          "expected_rank": 1,
+          "imported_rows": 461,
+          "index": 44,
+          "mode": "all",
+          "reading": "てきかくせいきゅうしょ"
+        },
+        {
+          "candidates": [
+            "OpenAI",
+            "オープンＡＩ",
+            "ＯｐｅｎＡＩ",
+            "オープン・エー愛",
+            "株式会社オープン・エー愛",
+            "オープン・エー相",
+            "株式会社オープン・エー相",
+            "オープン・エー合い",
+            "株式会社オープン・エー合い",
+            "オープン・エーあい"
+          ],
+          "category": "entity",
+          "elapsed_ms": 3.7969350814819336,
+          "expected": "OpenAI",
+          "expected_rank": 1,
+          "imported_rows": 218,
+          "index": 45,
+          "mode": "all",
+          "reading": "おーぷんえーあい"
+        },
+        {
+          "candidates": [
+            "Google",
+            "google",
+            "グーグル",
+            "ぐーぐる",
+            "Google Inc.",
+            "Google LLC",
+            "google llc",
+            "Ｇｏｏｇｌｅ",
+            "GOOGLE",
+            "goo.gl"
+          ],
+          "category": "entity",
+          "elapsed_ms": 0.5570650100708008,
+          "expected": "Google",
+          "expected_rank": 1,
+          "imported_rows": 40,
+          "index": 46,
+          "mode": "all",
+          "reading": "ぐーぐる"
+        },
+        {
+          "candidates": [
+            "山田太郎",
+            "山田タロウ",
+            "山田太朗",
+            "山田たろう",
+            "やまだたろう",
+            "YAMADAたろう",
+            "山田村たろう",
+            "ヤマダたろう",
+            "Yamadaたろう",
+            "安田たろう"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.471923828125,
+          "expected": "山田太郎",
+          "expected_rank": 1,
+          "imported_rows": 179,
+          "index": 47,
+          "mode": "all",
+          "reading": "やまだたろう"
+        },
+        {
+          "candidates": [
+            "大分県大分市豊饒に住んでいます",
+            "大分県大分市豊饒に済んでいます",
+            "大分県大分市豊饒にすんでいます",
+            "大分県大分市豊饒に住んで井升",
+            "大分県大分市豊饒に住んで井枡",
+            "オオイタケンオオイタシブニョウニスンデイマス",
+            "おおいたけんおおいたしぶにょうにすんでいます"
+          ],
+          "category": "entity",
+          "elapsed_ms": 9.044051170349121,
+          "expected": "大分県大分市豊饒に住んでいます",
+          "expected_rank": 1,
+          "imported_rows": 380,
+          "index": 48,
+          "mode": "all",
+          "reading": "おおいたけんおおいたしぶにょうにすんでいます"
+        },
+        {
+          "candidates": [
+            "斎藤",
+            "斉藤",
+            "齋藤",
+            "齊藤",
+            "佐居東",
+            "崔藤",
+            "斉東",
+            "斎東",
+            "最東",
+            "済籐"
+          ],
+          "category": "entity",
+          "elapsed_ms": 4.601001739501953,
+          "expected": "斎藤",
+          "expected_rank": 1,
+          "imported_rows": 430,
+          "index": 49,
+          "mode": "all",
+          "reading": "さいとう"
+        },
+        {
+          "candidates": [
+            "雑餉隈",
+            "雑書の熊",
+            "雑書のKUMA",
+            "雑書のkuma",
+            "雑書の久麻",
+            "ザッショノクマ",
+            "ざっしょのくま"
+          ],
+          "category": "entity",
+          "elapsed_ms": 1.466989517211914,
+          "expected": "雑餉隈",
+          "expected_rank": 1,
+          "imported_rows": 33,
+          "index": 50,
+          "mode": "all",
+          "reading": "ざっしょのくま"
+        },
+        {
+          "candidates": [
+            "福岡県福岡市雑餉隈",
+            "福岡県福岡氏雑餉隈",
+            "福岡県住宅供給公社福岡市雑餉隈",
+            "福岡県信用保証協会福岡市雑餉隈",
+            "福岡県信用組合福岡市雑餉隈",
+            "フクオカケンフクオカシザッショノクマ",
+            "ふくおかけんふくおかしざっしょのくま"
+          ],
+          "category": "entity",
+          "elapsed_ms": 8.3770751953125,
+          "expected": "福岡県福岡市雑餉隈",
+          "expected_rank": 1,
+          "imported_rows": 362,
+          "index": 51,
+          "mode": "all",
+          "reading": "ふくおかけんふくおかしざっしょのくま"
+        },
+        {
+          "candidates": [
+            "雑餉隈駅",
+            "雑餉隈液",
+            "雑餉隈役",
+            "雑餉隈益",
+            "雑餉隈惠木",
+            "雑餉隈絵機",
+            "雑餉隈絵期",
+            "雑餉隈画機",
+            "雑餉隈絵器",
+            "雑餉隈画期"
+          ],
+          "category": "entity",
+          "elapsed_ms": 9.294986724853516,
+          "expected": "雑餉隈駅",
+          "expected_rank": 1,
+          "imported_rows": 106,
+          "index": 52,
+          "mode": "all",
+          "reading": "ざっしょのくまえき"
+        },
+        {
+          "candidates": [
+            "心筋梗塞",
+            "心筋拘束",
+            "信金拘束",
+            "しんきん拘束",
+            "シンキン拘束",
+            "新近郊則",
+            "新近郊速",
+            "新均衡則",
+            "新均衡速",
+            "親近郊則"
+          ],
+          "category": "entity",
+          "elapsed_ms": 10.67495346069336,
+          "expected": "心筋梗塞",
+          "expected_rank": 1,
+          "imported_rows": 329,
+          "index": 53,
+          "mode": "all",
+          "reading": "しんきんこうそく"
+        },
+        {
+          "candidates": [
+            "量子縺れ",
+            "量子もつれ",
+            "漁師も連れ",
+            "猟師も連れ",
+            "漁師もつれ",
+            "両霜連れ",
+            "両シモ連れ",
+            "量子も連れ",
+            "両霜津れ",
+            "リョウシモツレ"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.2040605545043945,
+          "expected": "量子縺れ",
+          "expected_rank": 1,
+          "imported_rows": 110,
+          "index": 54,
+          "mode": "all",
+          "reading": "りょうしもつれ"
+        },
+        {
+          "candidates": [
+            "インフォームドコンセント",
+            "インフォームド・コンセント",
+            "informedコンセント",
+            "インフォームド株式会社コンセント",
+            "インフォームドこんせんと",
+            "informed痕線と",
+            "informed痕セント",
+            "いんふぉーむどこんせんと"
+          ],
+          "category": "entity",
+          "elapsed_ms": 5.791902542114258,
+          "expected": "インフォームドコンセント",
+          "expected_rank": 1,
+          "imported_rows": 303,
+          "index": 55,
+          "mode": "all",
+          "reading": "いんふぉーむどこんせんと"
+        },
+        {
+          "candidates": [
+            "ニューラルネットワーク",
+            "Neural Network",
+            "neural network",
+            "ニューラルネットワーク株式会社",
+            "neuralNetwork",
+            "ニューラルネットわーく",
+            "株式会社ニューラルネットわーく",
+            "にゅーらるねっとわーく"
+          ],
+          "category": "entity",
+          "elapsed_ms": 2.789020538330078,
+          "expected": "Neural Network",
+          "expected_rank": 2,
+          "imported_rows": 296,
+          "index": 56,
+          "mode": "all",
+          "reading": "にゅーらるねっとわーく"
+        },
+        {
+          "candidates": [
+            "如月",
+            "更衣",
+            "衣更着",
+            "きさらぎ",
+            "卯月",
+            "木皿儀",
+            "木皿木",
+            "きさらぎ合同会社",
+            "きさらぎ株式会社",
+            "きさらぎ税理士法人"
+          ],
+          "category": "entity",
+          "elapsed_ms": 4.3010711669921875,
+          "expected": "衣更着",
+          "expected_rank": 3,
+          "imported_rows": 252,
+          "index": 57,
+          "mode": "all",
+          "reading": "きさらぎ"
+        }
+      ]
+    }
+  }
+}

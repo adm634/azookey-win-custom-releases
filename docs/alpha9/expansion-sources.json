@@ -1,0 +1,68 @@
+[
+  {
+    "name": "skk.tar.gz",
+    "url": "https://codeload.github.com/skk-dev/dict/tar.gz/0a164e6b990c5eb5b59eb7d8789f08865dc2f644",
+    "bytes": 17806739,
+    "sha256": "2eef292f535a156d88694bc4a9fe85f3937a0946ef620c8275ef433f0cf4b5d1"
+  },
+  {
+    "name": "neologd.csv.xz",
+    "url": "https://raw.githubusercontent.com/neologd/mecab-ipadic-neologd/abc61e33d8be3d0ead202e6b1df064c72d5ccf11/seed/mecab-user-dict-seed.20200910.csv.xz",
+    "bytes": 41116376,
+    "sha256": "471ae4ac077a7d5f5b40ac5c3d097cdf5d658a71b1cc042db5bdb176790ba2c5"
+  },
+  {
+    "name": "NEologd-COPYING.txt",
+    "url": "https://raw.githubusercontent.com/neologd/mecab-ipadic-neologd/abc61e33d8be3d0ead202e6b1df064c72d5ccf11/COPYING",
+    "bytes": 4085,
+    "sha256": "428ad012b9b7baf3af430fb730998791da30458e4f88fbcd8ef5ac75a0eed81e"
+  },
+  {
+    "name": "EDRDG-license.html",
+    "url": "https://www.edrdg.org/edrdg/licence.html",
+    "bytes": 13587,
+    "sha256": "52f60ea9ca68170a2f0663d7dba381ebf1bd57c17a3347dfe21153865c156692"
+  },
+  {
+    "name": "CC-BY-SA-4.0.txt",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "bytes": 20138,
+    "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+  },
+  {
+    "name": "GPL-2.0.txt",
+    "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+    "bytes": 17984,
+    "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+  },
+  {
+    "name": "jmdict-eng.json.tgz",
+    "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20260921173324/jmdict-eng-3.6.2%2B20260921173324.json.tgz",
+    "bytes": 11521997,
+    "sha256": "16ac5d1b214c14981384a2008c813a65783c6ca7772703b9f4b3cfc9e9d5700f"
+  },
+  {
+    "name": "jmnedict-all.json.tgz",
+    "url": "https://github.com/scriptin/jmdict-simplified/releases/download/3.6.2%2B20260921173324/jmnedict-all-3.6.2%2B20260921173324.json.tgz",
+    "bytes": 13451153,
+    "sha256": "0eea39d6bf38c959bc62d1872a49559075ce526279d83e1ad0f38a6567b9b19d"
+  },
+  {
+    "name": "dmime.tar.gz",
+    "url": "https://codeload.github.com/c-colloid/DMiME/tar.gz/ea02234a7649f2f9df7b508d2ed4e55b7d1eb399",
+    "bytes": 756750,
+    "sha256": "442eac709d2f09dc21600316c125015891f41e2b4356fe6fa7aa9afdfd2f8e81"
+  },
+  {
+    "name": "jinmei-ut.txt",
+    "url": "https://raw.githubusercontent.com/ssig33/mozcdic-ut/52c14a5d207c648434b34e87015c3845f1b823f7/jinmei-ut/jinmei-ut.txt",
+    "bytes": 1917673,
+    "sha256": "b72e576bacc61c7c88c9f81058f27d9514fa87fcd2346a5924e3cc20e19b9dc2"
+  },
+  {
+    "name": "jinmei-ut-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/ssig33/mozcdic-ut/52c14a5d207c648434b34e87015c3845f1b823f7/jinmei-ut/LICENSE",
+    "bytes": 120,
+    "sha256": "8f40d19a6785d2c7695b425b14becd75c326e77728d0b82b9e7d7e91220206c2"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "cache_bytes_estimate": 51380106,
+  "cold": {
+    "max_us": 4050.417,
+    "p50_us": 1542.541,
+    "p95_us": 3696.833,
+    "samples": 92
+  },
+  "entries": 10089364,
+  "index_bytes": 93357301,
+  "load_ms": 233.453542,
+  "max_subset_entries": 1163,
+  "packs": 19,
+  "warm": {
+    "max_us": 10046.042,
+    "p50_us": 843.291,
+    "p95_us": 1861.417,
+    "samples": 1748
+  }
+}

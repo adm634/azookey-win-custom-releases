@@ -1,0 +1,292 @@
+[
+  {
+    "reading": "きょうはいいてんきですね",
+    "expected": "今日はいい天気ですね",
+    "category": "ordinary"
+  },
+  {
+    "reading": "あしたとうきょうにいきます",
+    "expected": "明日東京に行きます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "このけいやくしょをかくにんしてください",
+    "expected": "この契約書を確認してください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "おせわになっております",
+    "expected": "お世話になっております",
+    "category": "ordinary"
+  },
+  {
+    "reading": "よろしくおねがいします",
+    "expected": "よろしくお願いします",
+    "category": "ordinary"
+  },
+  {
+    "reading": "ありがとうございます",
+    "expected": "ありがとうございます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "かいぎはじゅうじからはじまります",
+    "expected": "会議は十時から始まります",
+    "category": "ordinary"
+  },
+  {
+    "reading": "しりょうをめーるでおくります",
+    "expected": "資料をメールで送ります",
+    "category": "ordinary"
+  },
+  {
+    "reading": "しょうひぜいのけいさんをしてください",
+    "expected": "消費税の計算をしてください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "せいきゅうしょをはっこうします",
+    "expected": "請求書を発行します",
+    "category": "ordinary"
+  },
+  {
+    "reading": "きんがくにまちがいがないかかくにんする",
+    "expected": "金額に間違いがないか確認する",
+    "category": "ordinary"
+  },
+  {
+    "reading": "じゅうしょとでんわばんごうをおしえてください",
+    "expected": "住所と電話番号を教えてください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "あたらしいしょうひんをはんばいします",
+    "expected": "新しい商品を販売します",
+    "category": "ordinary"
+  },
+  {
+    "reading": "しゅっちょうのよていをへんこうします",
+    "expected": "出張の予定を変更します",
+    "category": "ordinary"
+  },
+  {
+    "reading": "らいしゅうのげつようびにあいましょう",
+    "expected": "来週の月曜日に会いましょう",
+    "category": "ordinary"
+  },
+  {
+    "reading": "かれはすぐにかえってきます",
+    "expected": "彼はすぐに帰ってきます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "これからひるごはんをたべます",
+    "expected": "これから昼ご飯を食べます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "いえにかえってやすみます",
+    "expected": "家に帰って休みます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "かみをあらってからねます",
+    "expected": "髪を洗ってから寝ます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "はしをわたってみぎにまがる",
+    "expected": "橋を渡って右に曲がる",
+    "category": "ordinary"
+  },
+  {
+    "reading": "きょうのかいぎはちゅうしです",
+    "expected": "今日の会議は中止です",
+    "category": "ordinary"
+  },
+  {
+    "reading": "このもんだいはかいけつしました",
+    "expected": "この問題は解決しました",
+    "category": "ordinary"
+  },
+  {
+    "reading": "さぎょうのしんちょくをほうこくします",
+    "expected": "作業の進捗を報告します",
+    "category": "ordinary"
+  },
+  {
+    "reading": "あたらしいでんしけいやくをていけつする",
+    "expected": "新しい電子契約を締結する",
+    "category": "ordinary"
+  },
+  {
+    "reading": "ふぁいるをほぞんしてください",
+    "expected": "ファイルを保存してください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "でんしゃがごふんおくれています",
+    "expected": "電車が五分遅れています",
+    "category": "ordinary"
+  },
+  {
+    "reading": "おかねをぎんこうにあずける",
+    "expected": "お金を銀行に預ける",
+    "category": "ordinary"
+  },
+  {
+    "reading": "ほんをよんでべんきょうする",
+    "expected": "本を読んで勉強する",
+    "category": "ordinary"
+  },
+  {
+    "reading": "こどもとこうえんにいきます",
+    "expected": "子供と公園に行きます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "きょうはもうしごとがおわりました",
+    "expected": "今日はもう仕事が終わりました",
+    "category": "ordinary"
+  },
+  {
+    "reading": "とうきょうえきでまちあわせをします",
+    "expected": "東京駅で待ち合わせをします",
+    "category": "ordinary"
+  },
+  {
+    "reading": "このでーたをぶんせきしてください",
+    "expected": "このデータを分析してください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "きょうはかぜがつよいです",
+    "expected": "今日は風が強いです",
+    "category": "ordinary"
+  },
+  {
+    "reading": "さとうをいれてよくまぜます",
+    "expected": "砂糖を入れてよく混ぜます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "しごとのあとでともだちにあいます",
+    "expected": "仕事の後で友達に会います",
+    "category": "ordinary"
+  },
+  {
+    "reading": "すみませんがおなまえをおしえてください",
+    "expected": "すみませんがお名前を教えてください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "いちじかんほどまってください",
+    "expected": "一時間ほど待ってください",
+    "category": "ordinary"
+  },
+  {
+    "reading": "こんげつのうりあげをしゅうけいする",
+    "expected": "今月の売上を集計する",
+    "category": "ordinary"
+  },
+  {
+    "reading": "えきからほてるまであるきます",
+    "expected": "駅からホテルまで歩きます",
+    "category": "ordinary"
+  },
+  {
+    "reading": "あんぜんのためにでんげんをきります",
+    "expected": "安全のために電源を切ります",
+    "category": "ordinary"
+  },
+  {
+    "reading": "ぶにょう",
+    "expected": "豊饒",
+    "category": "entity"
+  },
+  {
+    "reading": "おおいたけんおおいたしぶにょう",
+    "expected": "大分県大分市豊饒",
+    "category": "entity"
+  },
+  {
+    "reading": "とよたじどうしゃ",
+    "expected": "トヨタ自動車株式会社",
+    "category": "entity"
+  },
+  {
+    "reading": "えぬてぃてぃどこも",
+    "expected": "株式会社ＮＴＴドコモ",
+    "category": "entity"
+  },
+  {
+    "reading": "てきかくせいきゅうしょ",
+    "expected": "適格請求書",
+    "category": "entity"
+  },
+  {
+    "reading": "おーぷんえーあい",
+    "expected": "OpenAI",
+    "category": "entity"
+  },
+  {
+    "reading": "ぐーぐる",
+    "expected": "Google",
+    "category": "entity"
+  },
+  {
+    "reading": "やまだたろう",
+    "expected": "山田太郎",
+    "category": "entity"
+  },
+  {
+    "reading": "おおいたけんおおいたしぶにょうにすんでいます",
+    "expected": "大分県大分市豊饒に住んでいます",
+    "category": "entity"
+  },
+  {
+    "reading": "さいとう",
+    "expected": "斎藤",
+    "category": "entity"
+  },
+  {
+    "reading": "ざっしょのくま",
+    "expected": "雑餉隈",
+    "category": "entity"
+  },
+  {
+    "reading": "ふくおかけんふくおかしざっしょのくま",
+    "expected": "福岡県福岡市雑餉隈",
+    "category": "entity"
+  },
+  {
+    "reading": "ざっしょのくまえき",
+    "expected": "雑餉隈駅",
+    "category": "entity"
+  },
+  {
+    "reading": "しんきんこうそく",
+    "expected": "心筋梗塞",
+    "category": "entity"
+  },
+  {
+    "reading": "りょうしもつれ",
+    "expected": "量子縺れ",
+    "category": "entity"
+  },
+  {
+    "reading": "いんふぉーむどこんせんと",
+    "expected": "インフォームドコンセント",
+    "category": "entity"
+  },
+  {
+    "reading": "にゅーらるねっとわーく",
+    "expected": "Neural Network",
+    "category": "entity"
+  },
+  {
+    "reading": "きさらぎ",
+    "expected": "衣更着",
+    "category": "entity"
+  }
+]

@@ -1,14 +1,38 @@
 # azooKey for Windows（配布用）
 
-このリポジトリは Windows 用日本語 IME「azooKey for Windows」改修版のインストーラー配布用です。ソースコードのリポジトリは非公開で、ここにはインストーラー、追加辞書、チェックサム、辞書の出典・利用条件を公開します。元の Windows 版は [fkunn1326/azooKey-Windows](https://github.com/fkunn1326/azooKey-Windows) です。
+このリポジトリは Windows 用日本語 IME「azooKey for Windows」改修版のインストーラー配布用です。IME本体のソースコードリポジトリは非公開で、ここにはインストーラー、追加辞書、チェックサム、辞書の出典・利用条件を公開します。元の Windows 版は [fkunn1326/azooKey-Windows](https://github.com/fkunn1326/azooKey-Windows) です。
 
 ## 重要なお知らせ
 
-`v0.1.0-alpha.4` 以前には、変換エンジンと同梱辞書の形式が一致せず、通常の漢字候補が出ない不具合があります。新規インストールや更新には [v0.1.0-alpha.8](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.8) を使用してください。通常の漢字変換に Zenzai・CUDA は不要です。
+`v0.1.0-alpha.4` 以前には、変換エンジンと同梱辞書の形式が一致せず、通常の漢字候補が出ない不具合があります。新規インストールや更新には [v0.1.0-alpha.9](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.9) を使用してください。通常の漢字変換に Zenzai・CUDA は不要です。
 
 `v0.1.0-alpha.5` の自動テストは、実際にインストールしたファイルで「日本語・漢字・東京」の候補と確定、学習の保存・再起動後の候補順位、稼働中の再インストール、変換サーバー・候補UIの起動を確認します。従来のテストはカタカナ候補だけでも合格していたため修正しました。Windows実機の各アプリでの入力操作とCUDA・Vulkanは引き続き検証中です。
 
 また `v0.1.0-alpha.3` には、候補確定後に変換サーバーが停止してローマ字がそのまま入力される不具合もあります。
+
+## alpha.9 の辞書拡充
+
+**住所・郵便番号と地名を標準搭載**。「ざっしょのくま → 雑餉隈」「福岡県福岡市雑餉隈」「雑餉隈駅」を、追加取得なしで使える構成にしました。
+
+郵便番号の先頭候補は **`100-0001 東京都千代田区千代田`**。住所だけの候補も残しています。
+
+公開辞書から13パックを追加し、全19パック・約1,009万組の読みと表記に拡充しました（パック間の重複を含む合計）。標準2パック以外の17パックは、**「ユーザー辞書 → 追加辞書 → 一覧・更新を確認」** で用途に合わせて取得してください。
+
+| 追加元 | 補う語彙 |
+|---|---|
+| NEologd / UT | 固有名詞・複合語・人物名 |
+| SKK | 一般語・固有名詞・地名・駅名・姓名・法律 |
+| JMdict | 一般名詞・科学・技術・業務・医学など |
+| JMnedict | 姓名・人物・地名・駅名・組織・作品など |
+| DMiME | 医学医療用語 |
+
+Macで最終配布辞書の174回の変換を比較し、標準2パック・全19パックとも通常文40例の先頭候補を維持。Windowsでの自動検証の詳細は下記報告に記載します。NEologd部分は2020年の固定版で、完全な網羅性や全語の無誤りを保証するものではありません。
+
+[alpha.9 検証報告](docs/alpha9/report.md) ／ [出典・収録条件・再現手順](docs/alpha9/dictionaries.md) ／ [Windows確認手順](docs/alpha9/windows-test.md)
+
+[追加辞書データ・編集可能ソース](https://github.com/adm634/azookey-win-custom-releases/releases/tag/dictionaries-2026.09.26)。GPL/CC-BY-SA/Apache等の利用条件を維持し、暗号化で上流の再利用権を制限しません。
+
+上書きインストール後はWindowsを再起動してください。設定・個人辞書・学習データを保持し、既に無効にした地名パックは無効のまま維持します。
 
 ## alpha.8 の辞書改修
 
@@ -55,7 +79,7 @@ alpha.6はWindowsのGPU層指定、ライブ入力時の処理量、候補の削
 
 ## インストール
 
-[alpha.8 のリリース](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.8) から `azookey-setup.exe` をダウンロードして実行してください。64ビット Windows 専用で、インストーラーには管理者権限が必要です。32ビットアプリ内でのIME動作はサポートしません。
+[alpha.9 のリリース](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.9) から `azookey-setup.exe` をダウンロードして実行してください。64ビット Windows 専用で、インストーラーには管理者権限が必要です。32ビットアプリ内でのIME動作はサポートしません。
 
 配布版は試験段階です。入力品質や学習効果の実利用での評価は継続中です。更新後はIMEを使用しているアプリを開き直し、古い版からの更新時はWindowsを再起動してください。不具合や再現例はこのリポジトリの [Issues](https://github.com/adm634/azookey-win-custom-releases/issues) に報告できます。
 

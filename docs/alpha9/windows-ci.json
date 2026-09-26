@@ -1,0 +1,85 @@
+{
+  "source_commit": "d8b500801f86064dac420202b25deb03ca31a10d",
+  "ci_run": 36217318233,
+  "platform": "windows-2022",
+  "gates": [
+    {
+      "name": "Build",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:20:52Z",
+      "completedAt": "2026-09-26T04:41:12Z"
+    },
+    {
+      "name": "Test dictionary source parsing and address normalization",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:41:12Z",
+      "completedAt": "2026-09-26T04:41:13Z"
+    },
+    {
+      "name": "Test encrypted dictionary packs, index limits, and updates",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:41:13Z",
+      "completedAt": "2026-09-26T04:42:00Z"
+    },
+    {
+      "name": "Test settings, API response handling, and Windows credential encryption",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:42:00Z",
+      "completedAt": "2026-09-26T04:42:10Z"
+    },
+    {
+      "name": "Test release version and update selection",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:42:10Z",
+      "completedAt": "2026-09-26T04:42:54Z"
+    },
+    {
+      "name": "Test dictionary catalog and download validation",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:42:54Z",
+      "completedAt": "2026-09-26T04:42:55Z"
+    },
+    {
+      "name": "Test IME candidate deletion and COM panic containment",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:42:55Z",
+      "completedAt": "2026-09-26T04:43:35Z"
+    },
+    {
+      "name": "Reject incompatible or incomplete dictionaries",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:43:41Z",
+      "completedAt": "2026-09-26T04:43:54Z"
+    },
+    {
+      "name": "Verify the complete published dictionary corpus with the native reader",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:43:54Z",
+      "completedAt": "2026-09-26T04:44:18Z"
+    },
+    {
+      "name": "Install and verify conversion, learning, dictionary packs, and restart",
+      "conclusion": "success",
+      "startedAt": "2026-09-26T04:44:18Z",
+      "completedAt": "2026-09-26T04:47:34Z"
+    }
+  ],
+  "diagnostics_ci": 36217318230,
+  "diagnostics_result": "success",
+  "physical_windows_ui_and_gpu_verified": false,
+  "workflow_conclusion": "success",
+  "rust_tests_passed": 37,
+  "python_tests_passed": 10,
+  "installer": [
+    {
+      "name": "azookey-diagnostics-tools.zip",
+      "bytes": 6482,
+      "sha256": "4ca561f8014ce5f14859883927ac4c223375cacd019ed1a76cde2132096c665a"
+    },
+    {
+      "name": "azookey-setup.exe",
+      "bytes": 258357284,
+      "sha256": "0b8fc075b66c7e6ce215629bdc8812f8bf62cb9d49d33a8603dcb833f8cc5db2"
+    }
+  ]
+}
