@@ -1,0 +1,66 @@
+{
+  "source": "de330c773a628220eeb66a935a0dcb922eb00661",
+  "frontend_build": "passed",
+  "windows_target_compile_check": "passed, not native execution",
+  "shared_mac_tests": {
+    "passed": 5
+  },
+  "actual_converter_mac": {
+    "cases": 6,
+    "checks": [
+      "expected English/mixed candidates",
+      "full consumption",
+      "deletion to empty",
+      "ordinary first result preserved",
+      "commit state then next Japanese conversion"
+    ],
+    "passed": true,
+    "engine": "ad714fea8cb2fe113aea86ba5c42563cdaf77cfb",
+    "ordinary_ordering_cases": 3
+  },
+  "browser": {
+    "candidate_numbers": "99-103 horizontal at 225 CSS px width",
+    "startup_measurement": "existing candidates retained",
+    "settings": "independent brackets/numpad switches verified with mocked IPC",
+    "paste_conversion": "mocked response, oversized input disabled, editing clears stale results",
+    "not_tested": "real Excel/Discord, Windows DPI, real external API"
+  },
+  "diagnostics_reused_from": "v0.1.0-alpha.9",
+  "diagnostics_sha256": "4ca561f8014ce5f14859883927ac4c223375cacd019ed1a76cde2132096c665a",
+  "windows_ci": 36230390352,
+  "windows_ci_status": "success",
+  "preferences_cache_benchmark": {
+    "platform": "macOS, debug build; not Windows input latency",
+    "dictionary_entries": 10000,
+    "json_bytes": 649329,
+    "full_read_us_per_call": 11007.80708,
+    "cached_read_us_per_call": 1.4585667
+  },
+  "source_merge": "ad36e695788be60d35f633abb4055e29dcfccbee",
+  "merge_tree_matches_tested_source": true,
+  "windows_native": {
+    "python_tests_passed": 10,
+    "rust_tests_passed": 40,
+    "ignored_test": "worker_process helper, invoked by process-lock tests",
+    "published_dictionary_packs_verified": 19,
+    "installation": "fresh install and upgrade while supervisor/server/UI are running; installed launch.vbs and settings resources verified",
+    "conversion": "incremental Latin/mixed candidates, Japanese ordering, consumption, deletion, reinsertion, learning persistence, postal and difficult places, dictionary updates and restart passed",
+    "zenzai_cpu_models": [
+      "small",
+      "xsmall"
+    ],
+    "physical_app_testing": "Excel/Discord/DPI and GPU tests remain with testers"
+  },
+  "release_assets": [
+    {
+      "name": "azookey-setup.exe",
+      "bytes": 258399850,
+      "sha256": "10485e6113d830a2b459e61852c685a958dbaf2dbf41c6d310e73a377c629ce2"
+    },
+    {
+      "name": "azookey-diagnostics-tools.zip",
+      "bytes": 6482,
+      "sha256": "4ca561f8014ce5f14859883927ac4c223375cacd019ed1a76cde2132096c665a"
+    }
+  ]
+}

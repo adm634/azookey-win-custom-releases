@@ -4,11 +4,23 @@
 
 ## 重要なお知らせ
 
-`v0.1.0-alpha.4` 以前には、変換エンジンと同梱辞書の形式が一致せず、通常の漢字候補が出ない不具合があります。新規インストールや更新には [v0.1.0-alpha.9](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.9) を使用してください。通常の漢字変換に Zenzai・CUDA は不要です。
+`v0.1.0-alpha.4` 以前には、変換エンジンと同梱辞書の形式が一致せず、通常の漢字候補が出ない不具合があります。新規インストールや更新には [v0.1.0-alpha.10](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.10) を使用してください。通常の漢字変換に Zenzai・CUDA は不要です。
 
 `v0.1.0-alpha.5` の自動テストは、実際にインストールしたファイルで「日本語・漢字・東京」の候補と確定、学習の保存・再起動後の候補順位、稼働中の再インストール、変換サーバー・候補UIの起動を確認します。従来のテストはカタカナ候補だけでも合格していたため修正しました。Windows実機の各アプリでの入力操作とCUDA・Vulkanは引き続き検証中です。
 
 また `v0.1.0-alpha.3` には、候補確定後に変換サーバーが停止してローマ字がそのまま入力される不具合もあります。
+
+## alpha.10 の入力・表示修正
+
+- Backspace後の候補窓を閉じ、2桁・3桁の候補番号の折り返しを修正。
+- 「全般 → 入力」に、括弧・カンマとピリオド・その他の記号・テンキーの半角設定を追加。初期状態はすべてオフです。
+- Google・Excelなどの英字候補と日本語の混在に対応。元のASCIIつづりも候補に残します。
+- 確定済み文章のAPI変換で選択範囲の扱いを修正。「いい感じ変換」に貼り付けて変換する欄を追加。
+- alpha.9の標準住所・地名辞書、追加辞書19パック、個人辞書と学習を継承。
+
+ExcelはF2でセルを編集し、セル内の文章を選択してから変換します。セル自体の選択は対象外で、利用できない入力欄では貼り付け変換を使ってください。Excel・Discordの実機操作の確認は継続中です。
+
+[alpha.10の使い方・実機確認項目](docs/alpha10/guide.md) ／ [検証報告](docs/alpha10/report.md)
 
 ## alpha.9 の辞書拡充
 
@@ -79,7 +91,7 @@ alpha.6はWindowsのGPU層指定、ライブ入力時の処理量、候補の削
 
 ## インストール
 
-[alpha.9 のリリース](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.9) から `azookey-setup.exe` をダウンロードして実行してください。64ビット Windows 専用で、インストーラーには管理者権限が必要です。32ビットアプリ内でのIME動作はサポートしません。
+[alpha.10 のリリース](https://github.com/adm634/azookey-win-custom-releases/releases/tag/v0.1.0-alpha.10) から `azookey-setup.exe` をダウンロードして実行してください。64ビット Windows 専用で、インストーラーには管理者権限が必要です。32ビットアプリ内でのIME動作はサポートしません。
 
 配布版は試験段階です。入力品質や学習効果の実利用での評価は継続中です。更新後はIMEを使用しているアプリを開き直し、古い版からの更新時はWindowsを再起動してください。不具合や再現例はこのリポジトリの [Issues](https://github.com/adm634/azookey-win-custom-releases/issues) に報告できます。
 
